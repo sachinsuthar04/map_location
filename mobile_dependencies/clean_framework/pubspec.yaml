@@ -1,0 +1,24 @@
+name: clean_framework
+description: Clean Architecture components library, inspired on the guidelines created by Uncle Bob.
+version: 0.4.2
+homepage: https://acmesoftware.com/
+repository: https://github.com/MattHamburger/clean_framework
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+  equatable: ^2.0.0
+  http: ^0.13.3
+  meta: ^1.3.0
+  provider: ^6.0.0
+
+dev_dependencies:
+  test: ^1.16.2
+  mockito: ^5.0.7
+
