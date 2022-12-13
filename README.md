@@ -6,6 +6,7 @@ A new Flutter project.
 Flutter sdk version 3.3.8
 
 This project is a starting point for a Flutter application.
+Add Origin and Destination place on MAP and other route and then we check.
 
 In this project we got location of user and every 3 second we call so
 contninously in foreground we got data and baseed on that we identify distance.
