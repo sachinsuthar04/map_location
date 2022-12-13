@@ -3,6 +3,19 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:geolocator/geolocator.dart';
 
 class MediaPermission {
+  final double sourceLat = 23.066600940779676;
+  final double sourceLong = 72.67634292368186;
+
+  final double destinationLat = 23.069870730503883;
+  final double destinationLong = 72.67314033414975;
+
+  final double stop1Lat = 23.0682851199053; // 190 m dairy shop
+  final double stop1Long = 72.67583419401666;
+  final double stop2Lat = 23.06949592299789; //350 m Cross road
+  final double stop2Long = 72.6755865954304;
+  final double stop3Lat = 23.06939255055921; // 550 m hospital
+  final double stop3Long = 72.67366287828781;
+
   static Future<bool> handleLocationPermission(BuildContext context) async {
     bool serviceEnabled;
     LocationPermission permission;
